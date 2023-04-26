@@ -1,0 +1,1850 @@
+.modalbg {
+    transition: opacity 0.1s ease-in-out 0s;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-left: -50vw;
+    top: 0px;
+    left: 50%;
+    z-index: 2;
+    will-change: opacity;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 999999;
+}
+.web3modalbg * {
+    box-sizing: border-box !important;
+}
+.web3modalbg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.modalform {
+    transition: opacity 0.1s ease-in-out 0s;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-left: -50vw;
+    top: 0px;
+    left: 50%;
+    z-index: 2;
+    will-change: opacity;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.eXhcJb {
+    --ck-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --ck-border-radius: 20px;
+    --ck-secondary-button-border-radius: 16px;
+    --ck-family-brand: #1A88F8;
+    --ck-brand-walletConnect: #3B99FC;
+    --ck-brand-coinbaseWallet: #0052FF;
+    --ck-brand-metamask: #f6851b;
+    --ck-brand-metamask-01: #F6851B;
+    --ck-brand-metamask-02: #E2761B;
+    --ck-brand-metamask-03: #CD6116;
+    --ck-brand-metamask-04: #161616;
+    --ck-brand-metamask-05: #763D16;
+    --ck-brand-metamask-06: #D7C1B3;
+    --ck-brand-metamask-07: #C0AD9E;
+    --ck-brand-metamask-08: #E4761B;
+    --ck-brand-metamask-09: #233447;
+    --ck-brand-metamask-10: #E4751F;
+    --ck-brand-metamask-11: #FEF5E7;
+    --ck-brand-metamask-12: #E3C8AB;
+    --ck-brand-trust-01: #3375BB;
+    --ck-brand-trust-02: #ffffff;
+    --ck-brand-trust-01b: #ffffff;
+    --ck-brand-trust-02b: #3375BB;
+    --ck-brand-argent: #f36a3d;
+    --ck-brand-imtoken-01: #11C4D1;
+    --ck-brand-imtoken-02: #0062AD;
+    --ck-ens-01-start: #FF3B30;
+    --ck-ens-01-stop: #FF9500;
+    --ck-ens-02-start: #FF9500;
+    --ck-ens-02-stop: #FFCC00;
+    --ck-ens-03-start: #FFCC00;
+    --ck-ens-03-stop: #34C759;
+    --ck-ens-04-start: #5856D6;
+    --ck-ens-04-stop: #AF52DE;
+    --ck-ens-05-start: #5AC8FA;
+    --ck-ens-05-stop: #007AFF;
+    --ck-ens-06-start: #007AFF;
+    --ck-ens-06-stop: #5856D6;
+    --ck-ens-07-start: #5856D6;
+    --ck-ens-07-stop: #AF52DE;
+    --ck-ens-08-start: #AF52DE;
+    --ck-ens-08-stop: #FF2D55;
+    --ck-graphic-wave-stop-01: #E8F17D;
+    --ck-graphic-wave-stop-02: #A8ECDE;
+    --ck-graphic-wave-stop-03: #7AA1F2;
+    --ck-graphic-wave-stop-04: #DEA1E8;
+    --ck-graphic-wave-stop-05: #F46D98;
+    --ck-graphic-scaniconwithlogos-01: #4E4E4E;
+    --ck-graphic-scaniconwithlogos-02: #272727;
+    --ck-graphic-scaniconwithlogos-03: #F8D74A;
+    --ck-graphic-scaniconwithlogos-04: #F6F7F9;
+    --ck-chain-ethereum-01: #25292E;
+    --ck-chain-ethereum-02: #fff;
+    --ck-chain-ethereum-03: #DFE0E0;
+    all: initial;
+    text-align: left;
+    text-direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.001px transparent;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 16px;
+}
+
+@media (prefers-color-scheme:light) {
+    .eXhcJb {
+        --ck-connectbutton-font-size: 15px;
+        --ck-connectbutton-color: #373737;
+        --ck-connectbutton-background: #F6F7F9;
+        --ck-connectbutton-background-secondary: #FFFFFF;
+        --ck-connectbutton-hover-color: #373737;
+        --ck-connectbutton-hover-background: #F0F2F5;
+        --ck-connectbutton-active-color: #373737;
+        --ck-connectbutton-active-background: #EAECF1;
+        --ck-connectbutton-balance-color: #373737;
+        --ck-connectbutton-balance-background: #fff;
+        --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+        --ck-connectbutton-balance-hover-background: #F6F7F9;
+        --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+        --ck-connectbutton-balance-active-background: #F0F2F5;
+        --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+        --ck-primary-button-border-radius: 16px;
+        --ck-primary-button-color: #373737;
+        --ck-primary-button-background: #F6F7F9;
+        --ck-primary-button-font-weight: 600;
+        --ck-primary-button-hover-color: #373737;
+        --ck-primary-button-hover-background: #F0F2F5;
+        --ck-secondary-button-border-radius: 16px;
+        --ck-secondary-button-color: #373737;
+        --ck-secondary-button-background: #F6F7F9;
+        --ck-tertiary-button-background: #FFFFFF;
+        --ck-secondary-button-hover-background: #e0e4eb;
+        --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        --ck-overlay-background: rgba(71, 88, 107, 0.24);
+        --ck-body-color: #373737;
+        --ck-body-color-muted: #999999;
+        --ck-body-color-muted-hover: #111111;
+        --ck-body-background: #ffffff;
+        --ck-body-background-transparent: rgba(255, 255, 255, 0);
+        --ck-body-background-secondary: #f6f7f9;
+        --ck-body-background-secondary-hover-background: #e0e4eb;
+        --ck-body-background-secondary-hover-outline: #4282FF;
+        --ck-body-background-tertiary: #F3F4F7;
+        --ck-body-action-color: #999999;
+        --ck-body-divider: #f7f6f8;
+        --ck-body-color-danger: #FF4E4E;
+        --ck-body-color-valid: #32D74B;
+        --ck-body-disclaimer-color: #AAAAAB;
+        --ck-body-disclaimer-link-color: #838485;
+        --ck-body-disclaimer-link-hover-color: #000000;
+        --ck-tooltip-background: #ffffff;
+        --ck-tooltip-background-secondary: #ffffff;
+        --ck-tooltip-color: #999999;
+        --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+        --ck-dropdown-button-color: #999999;
+        --ck-dropdown-button-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 0px 0px 7px rgba(0, 0, 0, 0.05);
+        --ck-dropdown-button-background: #fff;
+        --ck-dropdown-button-hover-color: #8B8B8B;
+        --ck-dropdown-button-hover-background: #F5F7F9;
+        --ck-qr-dot-color: #000000;
+        --ck-qr-border-color: #f7f6f8;
+        --ck-focus-color: #1A88F8;
+        --ck-spinner-color: var(--ck-focus-color);
+        --ck-copytoclipboard-stroke: #CCCCCC;
+    }
+    @supports (color:color(display-p3 1 1 1)) {
+        .eXhcJb {
+            --ck-connectbutton-font-size: 15px;
+            --ck-connectbutton-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-connectbutton-background-secondary: color(display-p3 1 1 1);
+            --ck-connectbutton-hover-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-hover-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-connectbutton-active-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-active-background: color(display-p3 0.9176470588235294 0.9254901960784314 0.9450980392156862);
+            --ck-connectbutton-balance-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-balance-background: #fff;
+            --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+            --ck-connectbutton-balance-hover-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+            --ck-connectbutton-balance-active-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+            --ck-primary-button-border-radius: 16px;
+            --ck-primary-button-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-primary-button-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-primary-button-font-weight: 600;
+            --ck-primary-button-hover-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-primary-button-hover-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-secondary-button-border-radius: 16px;
+            --ck-secondary-button-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-secondary-button-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-tertiary-button-background: color(display-p3 1 1 1);
+            --ck-secondary-button-hover-background: color(display-p3 0.8784313725490196 0.8941176470588236 0.9215686274509803);
+            --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+            --ck-overlay-background: rgba(71, 88, 107, 0.24);
+            --ck-body-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-body-color-muted: color(display-p3 0.6 0.6 0.6);
+            --ck-body-color-muted-hover: color(display-p3 0.06666666666666667 0.06666666666666667 0.06666666666666667);
+            --ck-body-background: color(display-p3 1 1 1);
+            --ck-body-background-transparent: rgba(255, 255, 255, 0);
+            --ck-body-background-secondary: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-body-background-secondary-hover-background: color(display-p3 0.8784313725490196 0.8941176470588236 0.9215686274509803);
+            --ck-body-background-secondary-hover-outline: color(display-p3 0.25882352941176473 0.5098039215686274 1);
+            --ck-body-background-tertiary: color(display-p3 0.9529411764705882 0.9568627450980393 0.9686274509803922);
+            --ck-body-action-color: color(display-p3 0.6 0.6 0.6);
+            --ck-body-divider: color(display-p3 0.9686274509803922 0.9647058823529412 0.9725490196078431);
+            --ck-body-color-danger: color(display-p3 1 0.3058823529411765 0.3058823529411765);
+            --ck-body-color-valid: color(display-p3 0.19607843137254902 0.8431372549019608 0.29411764705882354);
+            --ck-body-disclaimer-color: color(display-p3 0.6666666666666666 0.6666666666666666 0.6705882352941176);
+            --ck-body-disclaimer-link-color: color(display-p3 0.5137254901960784 0.5176470588235295 0.5215686274509804);
+            --ck-body-disclaimer-link-hover-color: color(display-p3 0 0 0);
+            --ck-tooltip-background: color(display-p3 1 1 1);
+            --ck-tooltip-background-secondary: color(display-p3 1 1 1);
+            --ck-tooltip-color: color(display-p3 0.6 0.6 0.6);
+            --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+            --ck-dropdown-button-color: color(display-p3 0.6 0.6 0.6);
+            --ck-dropdown-button-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 0px 0px 7px rgba(0, 0, 0, 0.05);
+            --ck-dropdown-button-background: #fff;
+            --ck-dropdown-button-hover-color: color(display-p3 0.5450980392156862 0.5450980392156862 0.5450980392156862);
+            --ck-dropdown-button-hover-background: color(display-p3 0.9607843137254902 0.9686274509803922 0.9764705882352941);
+            --ck-qr-dot-color: color(display-p3 0 0 0);
+            --ck-qr-border-color: color(display-p3 0.9686274509803922 0.9647058823529412 0.9725490196078431);
+            --ck-focus-color: color(display-p3 0.10196078431372549 0.5333333333333333 0.9725490196078431);
+            --ck-spinner-color: var(--ck-focus-color);
+            --ck-copytoclipboard-stroke: color(display-p3 0.8 0.8 0.8);
+        }
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    .eXhcJb {
+        --ck-connectbutton-font-size: 15px;
+        --ck-connectbutton-color: #ffffff;
+        --ck-connectbutton-background: #383838;
+        --ck-connectbutton-background-secondary: #282828;
+        --ck-connectbutton-hover-background: #404040;
+        --ck-connectbutton-active-background: #4D4D4D;
+        --ck-connectbutton-balance-color: #fff;
+        --ck-connectbutton-balance-background: #282828;
+        --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+        --ck-connectbutton-balance-hover-background: #383838;
+        --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+        --ck-connectbutton-balance-active-background: #404040;
+        --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+        --ck-primary-button-color: #ffffff;
+        --ck-primary-button-background: #383838;
+        --ck-primary-button-border-radius: 16px;
+        --ck-primary-button-font-weight: 600;
+        --ck-primary-button-hover-background: #404040;
+        --ck-primary-button-active-border-radius: 16px;
+        --ck-secondary-button-color: #ffffff;
+        --ck-secondary-button-background: #333333;
+        --ck-secondary-button-hover-background: #4D4D4D;
+        --ck-tertiary-button-background: #424242;
+        --ck-focus-color: #1A88F8;
+        --ck-overlay-background: rgba(0, 0, 0, 0.4);
+        --ck-body-color: #ffffff;
+        --ck-body-color-muted: rgba(255, 255, 255, 0.4);
+        --ck-body-color-muted-hover: rgba(255, 255, 255, 0.8);
+        --ck-body-background: #2B2B2B;
+        --ck-body-background-transparent: rgba(0, 0, 0, 0);
+        --ck-body-background-secondary: #333333;
+        --ck-body-background-secondary-hover-background: #4D4D4D;
+        --ck-body-background-secondary-hover-outline: #ffffff;
+        --ck-body-background-tertiary: #333333;
+        --ck-body-action-color: #808080;
+        --ck-body-divider: #383838;
+        --ck-body-color-danger: #FF4E4E;
+        --ck-body-disclaimer-color: #858585;
+        --ck-body-disclaimer-link-color: #ADADAD;
+        --ck-body-disclaimer-link-hover-color: #FFFFFF;
+        --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        --ck-copytoclipboard-stroke: #555555;
+        --ck-tooltip-background: #2B2B2B;
+        --ck-tooltip-background-secondary: #333333;
+        --ck-tooltip-color: #999999;
+        --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+        --ck-dropdown-button-color: #6C7381;
+        --ck-spinner-color: var(--ck-focus-color);
+        --ck-qr-dot-color: #ffffff;
+        --ck-qr-border-color: #3d3d3d;
+    }
+    @supports (color:color(display-p3 1 1 1)) {
+        .eXhcJb {
+            --ck-connectbutton-font-size: 15px;
+            --ck-connectbutton-color: color(display-p3 1 1 1);
+            --ck-connectbutton-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-connectbutton-background-secondary: color(display-p3 0.1568627450980392 0.1568627450980392 0.1568627450980392);
+            --ck-connectbutton-hover-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-connectbutton-active-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-connectbutton-balance-color: #fff;
+            --ck-connectbutton-balance-background: color(display-p3 0.1568627450980392 0.1568627450980392 0.1568627450980392);
+            --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+            --ck-connectbutton-balance-hover-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+            --ck-connectbutton-balance-active-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+            --ck-primary-button-color: color(display-p3 1 1 1);
+            --ck-primary-button-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-primary-button-border-radius: 16px;
+            --ck-primary-button-font-weight: 600;
+            --ck-primary-button-hover-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-primary-button-active-border-radius: 16px;
+            --ck-secondary-button-color: color(display-p3 1 1 1);
+            --ck-secondary-button-background: color(display-p3 0.2 0.2 0.2);
+            --ck-secondary-button-hover-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-tertiary-button-background: color(display-p3 0.25882352941176473 0.25882352941176473 0.25882352941176473);
+            --ck-focus-color: color(display-p3 0.10196078431372549 0.5333333333333333 0.9725490196078431);
+            --ck-overlay-background: rgba(0, 0, 0, 0.4);
+            --ck-body-color: color(display-p3 1 1 1);
+            --ck-body-color-muted: rgba(255, 255, 255, 0.4);
+            --ck-body-color-muted-hover: rgba(255, 255, 255, 0.8);
+            --ck-body-background: color(display-p3 0.16862745098039217 0.16862745098039217 0.16862745098039217);
+            --ck-body-background-transparent: rgba(0, 0, 0, 0);
+            --ck-body-background-secondary: color(display-p3 0.2 0.2 0.2);
+            --ck-body-background-secondary-hover-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-body-background-secondary-hover-outline: color(display-p3 1 1 1);
+            --ck-body-background-tertiary: color(display-p3 0.2 0.2 0.2);
+            --ck-body-action-color: color(display-p3 0.5019607843137255 0.5019607843137255 0.5019607843137255);
+            --ck-body-divider: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-body-color-danger: color(display-p3 1 0.3058823529411765 0.3058823529411765);
+            --ck-body-disclaimer-color: color(display-p3 0.5215686274509804 0.5215686274509804 0.5215686274509804);
+            --ck-body-disclaimer-link-color: color(display-p3 0.6784313725490196 0.6784313725490196 0.6784313725490196);
+            --ck-body-disclaimer-link-hover-color: color(display-p3 1 1 1);
+            --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+            --ck-copytoclipboard-stroke: color(display-p3 0.3333333333333333 0.3333333333333333 0.3333333333333333);
+            --ck-tooltip-background: color(display-p3 0.16862745098039217 0.16862745098039217 0.16862745098039217);
+            --ck-tooltip-background-secondary: color(display-p3 0.2 0.2 0.2);
+            --ck-tooltip-color: color(display-p3 0.6 0.6 0.6);
+            --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+            --ck-dropdown-button-color: color(display-p3 0.4235294117647059 0.45098039215686275 0.5058823529411764);
+            --ck-spinner-color: var(--ck-focus-color);
+            --ck-qr-dot-color: color(display-p3 1 1 1);
+            --ck-qr-border-color: color(display-p3 0.23921568627450981 0.23921568627450981 0.23921568627450981);
+        }
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    .eXhcJb {
+        --ck-family-brand: #1A88F8;
+        --ck-brand-walletConnect: #3B99FC;
+        --ck-brand-coinbaseWallet: #0052FF;
+        --ck-brand-metamask: #f6851b;
+        --ck-brand-metamask-01: #F6851B;
+        --ck-brand-metamask-02: #E2761B;
+        --ck-brand-metamask-03: #CD6116;
+        --ck-brand-metamask-04: #161616;
+        --ck-brand-metamask-05: #763D16;
+        --ck-brand-metamask-06: #D7C1B3;
+        --ck-brand-metamask-07: #C0AD9E;
+        --ck-brand-metamask-08: #E4761B;
+        --ck-brand-metamask-09: #233447;
+        --ck-brand-metamask-10: #E4751F;
+        --ck-brand-metamask-11: #FEF5E7;
+        --ck-brand-metamask-12: #E3C8AB;
+        --ck-brand-trust-01: #3375BB;
+        --ck-brand-trust-02: #ffffff;
+        --ck-brand-trust-01b: #ffffff;
+        --ck-brand-trust-02b: #3375BB;
+        --ck-brand-argent: #f36a3d;
+        --ck-brand-imtoken-01: #11C4D1;
+        --ck-brand-imtoken-02: #0062AD;
+        --ck-ens-01-start: #FF453A;
+        --ck-ens-01-stop: #FF9F0A;
+        --ck-ens-02-start: #FF9F0A;
+        --ck-ens-02-stop: #FFD60A;
+        --ck-ens-03-start: #FFD60A;
+        --ck-ens-03-stop: #32D74B;
+        --ck-ens-04-start: #32D74B;
+        --ck-ens-04-stop: #64D2FF;
+        --ck-ens-05-start: #64D2FF;
+        --ck-ens-05-stop: #0A84FF;
+        --ck-ens-06-start: #0A84FF;
+        --ck-ens-06-stop: #5E5CE6;
+        --ck-ens-07-start: #5E5CE6;
+        --ck-ens-07-stop: #BF5AF2;
+        --ck-ens-08-start: #BF5AF2;
+        --ck-ens-08-stop: #FF2D55;
+        --ck-graphic-wave-stop-01: #E8F17D;
+        --ck-graphic-wave-stop-02: #A8ECDE;
+        --ck-graphic-wave-stop-03: #7AA1F2;
+        --ck-graphic-wave-stop-04: #DEA1E8;
+        --ck-graphic-wave-stop-05: #F46D98;
+        --ck-graphic-scaniconwithlogos-01: #AFAFAF;
+        --ck-graphic-scaniconwithlogos-02: #696969;
+        --ck-graphic-scaniconwithlogos-03: #F8D74A;
+        --ck-graphic-scaniconwithlogos-04: #3D3D3D;
+    }
+}
+
+.eXhcJb button {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.001px transparent;
+}
+
+.eXhcJb,
+.eXhcJb * {
+    font-family: var(--ck-font-family);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.eXhcJb img,
+.eXhcJb svg {
+    max-width: 100%;
+}
+
+.eXhcJb strong {
+    font-weight: 600;
+}
+
+.eXhcJb a:focus-visible,
+.eXhcJb button:focus-visible {
+    outline: 2px solid var(--ck-focus-color);
+}
+
+.hNHEtw {
+    --ck-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --ck-border-radius: 20px;
+    --ck-secondary-button-border-radius: 16px;
+    --ck-family-brand: #1A88F8;
+    --ck-brand-walletConnect: #3B99FC;
+    --ck-brand-coinbaseWallet: #0052FF;
+    --ck-brand-metamask: #f6851b;
+    --ck-brand-metamask-01: #F6851B;
+    --ck-brand-metamask-02: #E2761B;
+    --ck-brand-metamask-03: #CD6116;
+    --ck-brand-metamask-04: #161616;
+    --ck-brand-metamask-05: #763D16;
+    --ck-brand-metamask-06: #D7C1B3;
+    --ck-brand-metamask-07: #C0AD9E;
+    --ck-brand-metamask-08: #E4761B;
+    --ck-brand-metamask-09: #233447;
+    --ck-brand-metamask-10: #E4751F;
+    --ck-brand-metamask-11: #FEF5E7;
+    --ck-brand-metamask-12: #E3C8AB;
+    --ck-brand-trust-01: #3375BB;
+    --ck-brand-trust-02: #ffffff;
+    --ck-brand-trust-01b: #ffffff;
+    --ck-brand-trust-02b: #3375BB;
+    --ck-brand-argent: #f36a3d;
+    --ck-brand-imtoken-01: #11C4D1;
+    --ck-brand-imtoken-02: #0062AD;
+    --ck-ens-01-start: #FF3B30;
+    --ck-ens-01-stop: #FF9500;
+    --ck-ens-02-start: #FF9500;
+    --ck-ens-02-stop: #FFCC00;
+    --ck-ens-03-start: #FFCC00;
+    --ck-ens-03-stop: #34C759;
+    --ck-ens-04-start: #5856D6;
+    --ck-ens-04-stop: #AF52DE;
+    --ck-ens-05-start: #5AC8FA;
+    --ck-ens-05-stop: #007AFF;
+    --ck-ens-06-start: #007AFF;
+    --ck-ens-06-stop: #5856D6;
+    --ck-ens-07-start: #5856D6;
+    --ck-ens-07-stop: #AF52DE;
+    --ck-ens-08-start: #AF52DE;
+    --ck-ens-08-stop: #FF2D55;
+    --ck-graphic-wave-stop-01: #E8F17D;
+    --ck-graphic-wave-stop-02: #A8ECDE;
+    --ck-graphic-wave-stop-03: #7AA1F2;
+    --ck-graphic-wave-stop-04: #DEA1E8;
+    --ck-graphic-wave-stop-05: #F46D98;
+    --ck-graphic-scaniconwithlogos-01: #4E4E4E;
+    --ck-graphic-scaniconwithlogos-02: #272727;
+    --ck-graphic-scaniconwithlogos-03: #F8D74A;
+    --ck-graphic-scaniconwithlogos-04: #F6F7F9;
+    --ck-chain-ethereum-01: #25292E;
+    --ck-chain-ethereum-02: #fff;
+    --ck-chain-ethereum-03: #DFE0E0;
+    all: initial;
+    text-align: left;
+    text-direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.001px transparent;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 16px;
+}
+
+@media (prefers-color-scheme:light) {
+    .hNHEtw {
+        --ck-connectbutton-font-size: 15px;
+        --ck-connectbutton-color: #373737;
+        --ck-connectbutton-background: #F6F7F9;
+        --ck-connectbutton-background-secondary: #FFFFFF;
+        --ck-connectbutton-hover-color: #373737;
+        --ck-connectbutton-hover-background: #F0F2F5;
+        --ck-connectbutton-active-color: #373737;
+        --ck-connectbutton-active-background: #EAECF1;
+        --ck-connectbutton-balance-color: #373737;
+        --ck-connectbutton-balance-background: #fff;
+        --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+        --ck-connectbutton-balance-hover-background: #F6F7F9;
+        --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+        --ck-connectbutton-balance-active-background: #F0F2F5;
+        --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+        --ck-primary-button-border-radius: 16px;
+        --ck-primary-button-color: #373737;
+        --ck-primary-button-background: #F6F7F9;
+        --ck-primary-button-font-weight: 600;
+        --ck-primary-button-hover-color: #373737;
+        --ck-primary-button-hover-background: #F0F2F5;
+        --ck-secondary-button-border-radius: 16px;
+        --ck-secondary-button-color: #373737;
+        --ck-secondary-button-background: #F6F7F9;
+        --ck-tertiary-button-background: #FFFFFF;
+        --ck-secondary-button-hover-background: #e0e4eb;
+        --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        --ck-overlay-background: rgba(71, 88, 107, 0.24);
+        --ck-body-color: #373737;
+        --ck-body-color-muted: #999999;
+        --ck-body-color-muted-hover: #111111;
+        --ck-body-background: #ffffff;
+        --ck-body-background-transparent: rgba(255, 255, 255, 0);
+        --ck-body-background-secondary: #f6f7f9;
+        --ck-body-background-secondary-hover-background: #e0e4eb;
+        --ck-body-background-secondary-hover-outline: #4282FF;
+        --ck-body-background-tertiary: #F3F4F7;
+        --ck-body-action-color: #999999;
+        --ck-body-divider: #f7f6f8;
+        --ck-body-color-danger: #FF4E4E;
+        --ck-body-color-valid: #32D74B;
+        --ck-body-disclaimer-color: #AAAAAB;
+        --ck-body-disclaimer-link-color: #838485;
+        --ck-body-disclaimer-link-hover-color: #000000;
+        --ck-tooltip-background: #ffffff;
+        --ck-tooltip-background-secondary: #ffffff;
+        --ck-tooltip-color: #999999;
+        --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+        --ck-dropdown-button-color: #999999;
+        --ck-dropdown-button-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 0px 0px 7px rgba(0, 0, 0, 0.05);
+        --ck-dropdown-button-background: #fff;
+        --ck-dropdown-button-hover-color: #8B8B8B;
+        --ck-dropdown-button-hover-background: #F5F7F9;
+        --ck-qr-dot-color: #000000;
+        --ck-qr-border-color: #f7f6f8;
+        --ck-focus-color: #1A88F8;
+        --ck-spinner-color: var(--ck-focus-color);
+        --ck-copytoclipboard-stroke: #CCCCCC;
+    }
+    @supports (color:color(display-p3 1 1 1)) {
+        .hNHEtw {
+            --ck-connectbutton-font-size: 15px;
+            --ck-connectbutton-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-connectbutton-background-secondary: color(display-p3 1 1 1);
+            --ck-connectbutton-hover-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-hover-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-connectbutton-active-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-active-background: color(display-p3 0.9176470588235294 0.9254901960784314 0.9450980392156862);
+            --ck-connectbutton-balance-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-connectbutton-balance-background: #fff;
+            --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+            --ck-connectbutton-balance-hover-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+            --ck-connectbutton-balance-active-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+            --ck-primary-button-border-radius: 16px;
+            --ck-primary-button-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-primary-button-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-primary-button-font-weight: 600;
+            --ck-primary-button-hover-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-primary-button-hover-background: color(display-p3 0.9411764705882353 0.9490196078431372 0.9607843137254902);
+            --ck-secondary-button-border-radius: 16px;
+            --ck-secondary-button-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-secondary-button-background: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-tertiary-button-background: color(display-p3 1 1 1);
+            --ck-secondary-button-hover-background: color(display-p3 0.8784313725490196 0.8941176470588236 0.9215686274509803);
+            --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+            --ck-overlay-background: rgba(71, 88, 107, 0.24);
+            --ck-body-color: color(display-p3 0.21568627450980393 0.21568627450980393 0.21568627450980393);
+            --ck-body-color-muted: color(display-p3 0.6 0.6 0.6);
+            --ck-body-color-muted-hover: color(display-p3 0.06666666666666667 0.06666666666666667 0.06666666666666667);
+            --ck-body-background: color(display-p3 1 1 1);
+            --ck-body-background-transparent: rgba(255, 255, 255, 0);
+            --ck-body-background-secondary: color(display-p3 0.9647058823529412 0.9686274509803922 0.9764705882352941);
+            --ck-body-background-secondary-hover-background: color(display-p3 0.8784313725490196 0.8941176470588236 0.9215686274509803);
+            --ck-body-background-secondary-hover-outline: color(display-p3 0.25882352941176473 0.5098039215686274 1);
+            --ck-body-background-tertiary: color(display-p3 0.9529411764705882 0.9568627450980393 0.9686274509803922);
+            --ck-body-action-color: color(display-p3 0.6 0.6 0.6);
+            --ck-body-divider: color(display-p3 0.9686274509803922 0.9647058823529412 0.9725490196078431);
+            --ck-body-color-danger: color(display-p3 1 0.3058823529411765 0.3058823529411765);
+            --ck-body-color-valid: color(display-p3 0.19607843137254902 0.8431372549019608 0.29411764705882354);
+            --ck-body-disclaimer-color: color(display-p3 0.6666666666666666 0.6666666666666666 0.6705882352941176);
+            --ck-body-disclaimer-link-color: color(display-p3 0.5137254901960784 0.5176470588235295 0.5215686274509804);
+            --ck-body-disclaimer-link-hover-color: color(display-p3 0 0 0);
+            --ck-tooltip-background: color(display-p3 1 1 1);
+            --ck-tooltip-background-secondary: color(display-p3 1 1 1);
+            --ck-tooltip-color: color(display-p3 0.6 0.6 0.6);
+            --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+            --ck-dropdown-button-color: color(display-p3 0.6 0.6 0.6);
+            --ck-dropdown-button-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01), 0px 0px 7px rgba(0, 0, 0, 0.05);
+            --ck-dropdown-button-background: #fff;
+            --ck-dropdown-button-hover-color: color(display-p3 0.5450980392156862 0.5450980392156862 0.5450980392156862);
+            --ck-dropdown-button-hover-background: color(display-p3 0.9607843137254902 0.9686274509803922 0.9764705882352941);
+            --ck-qr-dot-color: color(display-p3 0 0 0);
+            --ck-qr-border-color: color(display-p3 0.9686274509803922 0.9647058823529412 0.9725490196078431);
+            --ck-focus-color: color(display-p3 0.10196078431372549 0.5333333333333333 0.9725490196078431);
+            --ck-spinner-color: var(--ck-focus-color);
+            --ck-copytoclipboard-stroke: color(display-p3 0.8 0.8 0.8);
+        }
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    .hNHEtw {
+        --ck-connectbutton-font-size: 15px;
+        --ck-connectbutton-color: #ffffff;
+        --ck-connectbutton-background: #383838;
+        --ck-connectbutton-background-secondary: #282828;
+        --ck-connectbutton-hover-background: #404040;
+        --ck-connectbutton-active-background: #4D4D4D;
+        --ck-connectbutton-balance-color: #fff;
+        --ck-connectbutton-balance-background: #282828;
+        --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+        --ck-connectbutton-balance-hover-background: #383838;
+        --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+        --ck-connectbutton-balance-active-background: #404040;
+        --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+        --ck-primary-button-color: #ffffff;
+        --ck-primary-button-background: #383838;
+        --ck-primary-button-border-radius: 16px;
+        --ck-primary-button-font-weight: 600;
+        --ck-primary-button-hover-background: #404040;
+        --ck-primary-button-active-border-radius: 16px;
+        --ck-secondary-button-color: #ffffff;
+        --ck-secondary-button-background: #333333;
+        --ck-secondary-button-hover-background: #4D4D4D;
+        --ck-tertiary-button-background: #424242;
+        --ck-focus-color: #1A88F8;
+        --ck-overlay-background: rgba(0, 0, 0, 0.4);
+        --ck-body-color: #ffffff;
+        --ck-body-color-muted: rgba(255, 255, 255, 0.4);
+        --ck-body-color-muted-hover: rgba(255, 255, 255, 0.8);
+        --ck-body-background: #2B2B2B;
+        --ck-body-background-transparent: rgba(0, 0, 0, 0);
+        --ck-body-background-secondary: #333333;
+        --ck-body-background-secondary-hover-background: #4D4D4D;
+        --ck-body-background-secondary-hover-outline: #ffffff;
+        --ck-body-background-tertiary: #333333;
+        --ck-body-action-color: #808080;
+        --ck-body-divider: #383838;
+        --ck-body-color-danger: #FF4E4E;
+        --ck-body-disclaimer-color: #858585;
+        --ck-body-disclaimer-link-color: #ADADAD;
+        --ck-body-disclaimer-link-hover-color: #FFFFFF;
+        --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+        --ck-copytoclipboard-stroke: #555555;
+        --ck-tooltip-background: #2B2B2B;
+        --ck-tooltip-background-secondary: #333333;
+        --ck-tooltip-color: #999999;
+        --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+        --ck-dropdown-button-color: #6C7381;
+        --ck-spinner-color: var(--ck-focus-color);
+        --ck-qr-dot-color: #ffffff;
+        --ck-qr-border-color: #3d3d3d;
+    }
+    @supports (color:color(display-p3 1 1 1)) {
+        .hNHEtw {
+            --ck-connectbutton-font-size: 15px;
+            --ck-connectbutton-color: color(display-p3 1 1 1);
+            --ck-connectbutton-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-connectbutton-background-secondary: color(display-p3 0.1568627450980392 0.1568627450980392 0.1568627450980392);
+            --ck-connectbutton-hover-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-connectbutton-active-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-connectbutton-balance-color: #fff;
+            --ck-connectbutton-balance-background: color(display-p3 0.1568627450980392 0.1568627450980392 0.1568627450980392);
+            --ck-connectbutton-balance-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-background);
+            --ck-connectbutton-balance-hover-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-connectbutton-balance-hover-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-hover-background);
+            --ck-connectbutton-balance-active-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-connectbutton-balance-active-box-shadow: inset 0 0 0 1px var(--ck-connectbutton-active-background);
+            --ck-primary-button-color: color(display-p3 1 1 1);
+            --ck-primary-button-background: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-primary-button-border-radius: 16px;
+            --ck-primary-button-font-weight: 600;
+            --ck-primary-button-hover-background: color(display-p3 0.25098039215686274 0.25098039215686274 0.25098039215686274);
+            --ck-primary-button-active-border-radius: 16px;
+            --ck-secondary-button-color: color(display-p3 1 1 1);
+            --ck-secondary-button-background: color(display-p3 0.2 0.2 0.2);
+            --ck-secondary-button-hover-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-tertiary-button-background: color(display-p3 0.25882352941176473 0.25882352941176473 0.25882352941176473);
+            --ck-focus-color: color(display-p3 0.10196078431372549 0.5333333333333333 0.9725490196078431);
+            --ck-overlay-background: rgba(0, 0, 0, 0.4);
+            --ck-body-color: color(display-p3 1 1 1);
+            --ck-body-color-muted: rgba(255, 255, 255, 0.4);
+            --ck-body-color-muted-hover: rgba(255, 255, 255, 0.8);
+            --ck-body-background: color(display-p3 0.16862745098039217 0.16862745098039217 0.16862745098039217);
+            --ck-body-background-transparent: rgba(0, 0, 0, 0);
+            --ck-body-background-secondary: color(display-p3 0.2 0.2 0.2);
+            --ck-body-background-secondary-hover-background: color(display-p3 0.30196078431372547 0.30196078431372547 0.30196078431372547);
+            --ck-body-background-secondary-hover-outline: color(display-p3 1 1 1);
+            --ck-body-background-tertiary: color(display-p3 0.2 0.2 0.2);
+            --ck-body-action-color: color(display-p3 0.5019607843137255 0.5019607843137255 0.5019607843137255);
+            --ck-body-divider: color(display-p3 0.2196078431372549 0.2196078431372549 0.2196078431372549);
+            --ck-body-color-danger: color(display-p3 1 0.3058823529411765 0.3058823529411765);
+            --ck-body-disclaimer-color: color(display-p3 0.5215686274509804 0.5215686274509804 0.5215686274509804);
+            --ck-body-disclaimer-link-color: color(display-p3 0.6784313725490196 0.6784313725490196 0.6784313725490196);
+            --ck-body-disclaimer-link-hover-color: color(display-p3 1 1 1);
+            --ck-modal-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
+            --ck-copytoclipboard-stroke: color(display-p3 0.3333333333333333 0.3333333333333333 0.3333333333333333);
+            --ck-tooltip-background: color(display-p3 0.16862745098039217 0.16862745098039217 0.16862745098039217);
+            --ck-tooltip-background-secondary: color(display-p3 0.2 0.2 0.2);
+            --ck-tooltip-color: color(display-p3 0.6 0.6 0.6);
+            --ck-tooltip-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+            --ck-dropdown-button-color: color(display-p3 0.4235294117647059 0.45098039215686275 0.5058823529411764);
+            --ck-spinner-color: var(--ck-focus-color);
+            --ck-qr-dot-color: color(display-p3 1 1 1);
+            --ck-qr-border-color: color(display-p3 0.23921568627450981 0.23921568627450981 0.23921568627450981);
+        }
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+    .hNHEtw {
+        --ck-family-brand: #1A88F8;
+        --ck-brand-walletConnect: #3B99FC;
+        --ck-brand-coinbaseWallet: #0052FF;
+        --ck-brand-metamask: #f6851b;
+        --ck-brand-metamask-01: #F6851B;
+        --ck-brand-metamask-02: #E2761B;
+        --ck-brand-metamask-03: #CD6116;
+        --ck-brand-metamask-04: #161616;
+        --ck-brand-metamask-05: #763D16;
+        --ck-brand-metamask-06: #D7C1B3;
+        --ck-brand-metamask-07: #C0AD9E;
+        --ck-brand-metamask-08: #E4761B;
+        --ck-brand-metamask-09: #233447;
+        --ck-brand-metamask-10: #E4751F;
+        --ck-brand-metamask-11: #FEF5E7;
+        --ck-brand-metamask-12: #E3C8AB;
+        --ck-brand-trust-01: #3375BB;
+        --ck-brand-trust-02: #ffffff;
+        --ck-brand-trust-01b: #ffffff;
+        --ck-brand-trust-02b: #3375BB;
+        --ck-brand-argent: #f36a3d;
+        --ck-brand-imtoken-01: #11C4D1;
+        --ck-brand-imtoken-02: #0062AD;
+        --ck-ens-01-start: #FF453A;
+        --ck-ens-01-stop: #FF9F0A;
+        --ck-ens-02-start: #FF9F0A;
+        --ck-ens-02-stop: #FFD60A;
+        --ck-ens-03-start: #FFD60A;
+        --ck-ens-03-stop: #32D74B;
+        --ck-ens-04-start: #32D74B;
+        --ck-ens-04-stop: #64D2FF;
+        --ck-ens-05-start: #64D2FF;
+        --ck-ens-05-stop: #0A84FF;
+        --ck-ens-06-start: #0A84FF;
+        --ck-ens-06-stop: #5E5CE6;
+        --ck-ens-07-start: #5E5CE6;
+        --ck-ens-07-stop: #BF5AF2;
+        --ck-ens-08-start: #BF5AF2;
+        --ck-ens-08-stop: #FF2D55;
+        --ck-graphic-wave-stop-01: #E8F17D;
+        --ck-graphic-wave-stop-02: #A8ECDE;
+        --ck-graphic-wave-stop-03: #7AA1F2;
+        --ck-graphic-wave-stop-04: #DEA1E8;
+        --ck-graphic-wave-stop-05: #F46D98;
+        --ck-graphic-scaniconwithlogos-01: #AFAFAF;
+        --ck-graphic-scaniconwithlogos-02: #696969;
+        --ck-graphic-scaniconwithlogos-03: #F8D74A;
+        --ck-graphic-scaniconwithlogos-04: #3D3D3D;
+    }
+}
+
+@supports (color:color(display-p3 1 1 1)) {}
+
+.hNHEtw button {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 0.001px transparent;
+}
+
+.hNHEtw,
+.hNHEtw * {
+    font-family: var(--ck-font-family);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.hNHEtw img,
+.hNHEtw svg {
+    max-width: 100%;
+}
+
+.hNHEtw strong {
+    font-weight: 600;
+}
+
+.hNHEtw a:focus-visible,
+.hNHEtw button:focus-visible {
+    outline: 2px solid var(--ck-focus-color);
+}
+
+.jKlSZW {
+    max-width: 100%;
+    width: 295px;
+}
+
+.dLUlU {
+    z-index: 3;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: var(--width);
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: var(--ck-modal-heading-font-weight, 600);
+    color: var(--ck-body-color);
+}
+
+.lbAEgN {
+    height: 48px;
+}
+
+.hkQOmQ {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--ck-overlay-background, rgba(71, 88, 107, 0.24));
+    opacity: 0;
+    -webkit-animation: kyfoBh 150ms ease-out both;
+    animation: kyfoBh 150ms ease-out both;
+}
+
+.RrATt {
+    z-index: 2;
+    position: relative;
+    color: var(--ck-body-color);
+    -webkit-animation: 150ms ease both;
+    animation: 150ms ease both;
+    -webkit-animation-name: gcvaBM;
+    animation-name: gcvaBM;
+}
+
+.RrATt.active {
+    -webkit-animation-name: jtPyxw;
+    animation-name: jtPyxw;
+}
+
+.RrATt:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: var(--width);
+    height: var(--height);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border-radius: var(--ck-border-radius, 20px);
+    background: var(--ck-body-background);
+    box-shadow: var(--ck-modal-box-shadow);
+}
+
+@media only screen and (max-width:560px) {
+    .RrATt {
+        -webkit-animation-name: gYgSRh;
+        animation-name: gYgSRh;
+        -webkit-animation-duration: 130ms;
+        animation-duration: 130ms;
+        -webkit-animation-timing-function: ease;
+        animation-timing-function: ease;
+    }
+    .RrATt.active {
+        -webkit-animation-name: dUzAuZ;
+        animation-name: dUzAuZ;
+        -webkit-animation-duration: 300ms;
+        animation-duration: 300ms;
+        -webkit-animation-delay: 32ms;
+        animation-delay: 32ms;
+        -webkit-animation-timing-function: cubic-bezier(0.15, 1.15, 0.6, 1);
+        animation-timing-function: cubic-bezier(0.15, 1.15, 0.6, 1);
+    }
+    .RrATt:before {
+        width: 100%;
+        -webkit-transition: 0ms height cubic-bezier(0.15, 1.15, 0.6, 1);
+        transition: 0ms height cubic-bezier(0.15, 1.15, 0.6, 1);
+        will-change: height;
+    }
+}
+
+.gcowpW {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 64px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: var(--width);
+    -webkit-transition: 0.2s ease width;
+    transition: 0.2s ease width;
+    pointer-events: auto;
+}
+
+.gcbNhn {
+    position: relative;
+    overflow: hidden;
+    height: var(--height);
+    -webkit-transition: 0.2s ease height;
+    transition: 0.2s ease height;
+}
+
+@media only screen and (max-width:560px) {
+    .gcbNhn {
+        -webkit-transition: 0ms height cubic-bezier(0.15, 1.15, 0.6, 1);
+        transition: 0ms height cubic-bezier(0.15, 1.15, 0.6, 1);
+    }
+}
+
+.hVhjow {
+    z-index: 2;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: calc(var(--width) / -2);
+    width: var(--width);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation: 200ms ease both;
+    animation: 200ms ease both;
+}
+
+.hVhjow.active {
+    -webkit-animation-name: dwEkmm;
+    animation-name: dwEkmm;
+}
+
+.hVhjow.active-scale-up {
+    -webkit-animation-name: klHVvn;
+    animation-name: klHVvn;
+}
+
+.hVhjow.exit-scale-down {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    -webkit-animation-name: ebeUMj;
+    animation-name: ebeUMj;
+}
+
+.hVhjow.exit {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    -webkit-animation-name: gBjDwu;
+    animation-name: gBjDwu;
+    -webkit-animation-delay: 16.6667ms;
+    animation-delay: 16.6667ms;
+}
+
+@media only screen and (max-width:560px) {
+    .hVhjow {
+        -webkit-animation: 0ms cubic-bezier(0.15, 1.15, 0.6, 1) both;
+        animation: 0ms cubic-bezier(0.15, 1.15, 0.6, 1) both;
+    }
+    .hVhjow.active {
+        -webkit-animation-name: kyfoBh;
+        animation-name: kyfoBh;
+    }
+    .hVhjow.active-scale-up {
+        -webkit-animation-name: kyfoBh;
+        animation-name: kyfoBh;
+    }
+    .hVhjow.exit-scale-down {
+        z-index: 3;
+        -webkit-animation-name: ljotTV;
+        animation-name: ljotTV;
+    }
+    .hVhjow.exit {
+        z-index: 3;
+        -webkit-animation-name: ljotTV;
+        animation-name: ljotTV;
+        -webkit-animation-delay: 0ms;
+        animation-delay: 0ms;
+    }
+}
+
+.dmNTWR {
+    margin: 0 auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 29px 24px 24px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.dkAhZx {
+    z-index: 2147483646;
+    position: fixed;
+    inset: 0;
+}
+
+.hFEFWT {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 0;
+    margin: 0;
+    color: var(--ck-body-action-color);
+    background: var(--ck-body-background);
+    -webkit-transition: background-color 200ms ease, -webkit-transform 100ms ease;
+    -webkit-transition: background-color 200ms ease, transform 100ms ease;
+    transition: background-color 200ms ease, transform 100ms ease;
+}
+
+.hFEFWT svg {
+    display: block;
+}
+
+.hFEFWT:hover {
+    background: var(--ck-body-background-secondary);
+}
+
+.hFEFWT:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.dnfVlP {
+    z-index: 3;
+    position: absolute;
+    top: 23px;
+    left: 21px;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 0;
+    margin: 0;
+    color: var(--ck-body-action-color);
+    background: var(--ck-body-background);
+    -webkit-transition: background-color 200ms ease, -webkit-transform 100ms ease;
+    -webkit-transition: background-color 200ms ease, transform 100ms ease;
+    transition: background-color 200ms ease, transform 100ms ease;
+}
+
+.dnfVlP svg {
+    display: block;
+    position: relative;
+}
+
+.dnfVlP:enabled {
+    cursor: pointer;
+}
+
+.dnfVlP:enabled:hover {
+    background: var(--ck-body-background-secondary);
+}
+
+.dnfVlP:enabled:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.hBuwwI {
+    --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+    --duration: 200ms;
+    --transition: height var(--duration) var(--ease), width var(--duration) var(--ease);
+    z-index: 3;
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+@media only screen and (max-width:560px) {
+    .hBuwwI {
+        pointer-events: auto;
+        left: 0;
+        top: auto;
+        bottom: -5px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    .hBuwwI .sc-iqcoie {
+        max-width: 448px;
+        margin: 0 auto;
+    }
+    .hBuwwI .sc-iqcoie:before {
+        width: 100%;
+        border-radius: var(--ck-border-radius, 30px) var(--ck-border-radius, 30px) 0 0;
+    }
+    .hBuwwI .sc-breuTD {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: auto;
+    }
+    .hBuwwI .sc-dkzDqf {
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .hBuwwI .sc-eCYdqJ {
+        top: 32px;
+    }
+    .hBuwwI .sc-iBkjds {
+        gap: 12px;
+    }
+    .hBuwwI .sc-papXJ {
+        margin: 0 auto;
+        max-width: 295px;
+    }
+    .hBuwwI .sc-ksZaOG {
+        width: 100%;
+        padding: 31px 24px;
+    }
+    .hBuwwI .sc-crXcEl {
+        width: 100%;
+        top: 4px;
+        border-bottom: 0;
+    }
+    .hBuwwI .sc-fnykZs {
+        right: 22px;
+    }
+    .hBuwwI .sc-fEOsli {
+        top: 22px;
+        left: 17px;
+    }
+    .hBuwwI .sc-bjUoiL {
+        top: 22px;
+        left: 17px;
+    }
+    .hBuwwI .sc-bjUoiL svg {
+        width: 65%;
+        height: auto;
+    }
+    .hBuwwI .sc-fnykZs,
+    .hBuwwI .sc-fEOsli,
+    .hBuwwI .sc-bjUoiL {
+        -webkit-transform: scale(1.4) !important;
+        -ms-transform: scale(1.4) !important;
+        transform: scale(1.4) !important;
+        background: transparent !important;
+    }
+    .hBuwwI .sc-fnykZs svg,
+    .hBuwwI .sc-fEOsli svg,
+    .hBuwwI .sc-bjUoiL svg {
+        -webkit-transform: scale(0.8) !important;
+        -ms-transform: scale(0.8) !important;
+        transform: scale(0.8) !important;
+    }
+}
+
+.hLcKTw {
+    text-align: center;
+    margin-bottom: -6px;
+}
+
+.fKICOT {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    height: 42px;
+    padding: 0 16px;
+    border-radius: 6px;
+    background: none;
+    color: var(--ck-body-color-muted);
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    -webkit-transition: color 200ms ease, -webkit-transform 100ms ease;
+    -webkit-transition: color 200ms ease, transform 100ms ease;
+    transition: color 200ms ease, transform 100ms ease;
+}
+
+.fKICOT svg {
+    -webkit-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    -webkit-transform: translateZ(0px);
+    -ms-transform: translateZ(0px);
+    transform: translateZ(0px);
+}
+
+.fKICOT svg path,
+.fKICOT svg circle {
+    -webkit-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+}
+
+.fKICOT svg path:last-of-type {
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleX(1.3) skewY(-12deg);
+    -ms-transform: scaleX(1.3) skewY(-12deg);
+    transform: scaleX(1.3) skewY(-12deg);
+    opacity: 0;
+}
+
+.fKICOT svg circle {
+    -webkit-transform: translate(20%, -15%);
+    -ms-transform: translate(20%, -15%);
+    transform: translate(20%, -15%);
+}
+
+.fKICOT:hover {
+    color: var(--ck-body-color-muted-hover);
+}
+
+.fKICOT:hover svg path,
+.fKICOT:hover svg circle {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.fKICOT:active {
+    -webkit-transform: scale(0.96);
+    -ms-transform: scale(0.96);
+    transform: scale(0.96);
+}
+
+.erYMGl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 0 16px;
+}
+
+.fTpgsT {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 64px;
+    font-size: 17px;
+    font-weight: var(--ck-primary-button-font-weight, 500);
+    line-height: 20px;
+    text-align: var(--ck-body-button-text-align, left);
+    -webkit-transition: 180ms ease;
+    transition: 180ms ease;
+    -webkit-transition-property: background, color, box-shadow, -webkit-transform;
+    -webkit-transition-property: background, color, box-shadow, transform;
+    transition-property: background, color, box-shadow, transform;
+    will-change: transform, box-shadow, background-color, color;
+    --fallback-color: var(--ck-primary-button-color);
+    --fallback-background: var(--ck-primary-button-background);
+    --fallback-box-shadow: var(--ck-primary-button-box-shadow);
+    --fallback-border-radius: var(--ck-primary-button-border-radius);
+    --color: var(--ck-primary-button-color, var(--fallback-color));
+    --background: var(--ck-primary-button-background, var(--fallback-background));
+    --box-shadow: var(--ck-primary-button-box-shadow, var(--fallback-box-shadow));
+    --border-radius: var( --ck-primary-button-border-radius, var(--fallback-border-radius));
+    --hover-color: var(--ck-primary-button-hover-color, var(--color));
+    --hover-background: var( --ck-primary-button-hover-background, var(--background));
+    --hover-box-shadow: var( --ck-primary-button-hover-box-shadow, var(--box-shadow));
+    --hover-border-radius: var( --ck-primary-button-hover-border-radius, var(--border-radius));
+    --active-color: var(--ck-primary-button-active-color, var(--hover-color));
+    --active-background: var( --ck-primary-button-active-background, var(--hover-background));
+    --active-box-shadow: var( --ck-primary-button-active-box-shadow, var(--hover-box-shadow));
+    --active-border-radius: var( --ck-primary-button-active-border-radius, var(--hover-border-radius));
+    color: var(--color);
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.fTpgsT:disabled {
+    -webkit-transition: 180ms ease;
+    transition: 180ms ease;
+}
+
+.fTpgsT:not(:disabled):hover {
+    color: var(--hover-color);
+    background: var(--hover-background);
+    box-shadow: var(--hover-box-shadow);
+    border-radius: var(--hover-border-radius);
+}
+
+.fTpgsT:not(:disabled):focus {
+    -webkit-transition-duration: 100ms;
+    transition-duration: 100ms;
+    color: var(--hover-color);
+    background: var(--hover-background);
+    box-shadow: var(--hover-box-shadow);
+    border-radius: var(--hover-border-radius);
+}
+
+.fTpgsT:not(:disabled):active {
+    color: var(--active-color);
+    background: var(--active-background);
+    box-shadow: var(--active-box-shadow);
+    border-radius: var(--active-border-radius);
+}
+
+.ftvWqB {
+    width: 100%;
+}
+
+.iPMOKQ {
+    position: absolute;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.iPMOKQ svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gAthxe {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.hyKgaH {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    position: relative;
+    height: 40px;
+    padding: 0;
+    line-height: 0;
+    -webkit-letter-spacing: -0.2px;
+    -moz-letter-spacing: -0.2px;
+    -ms-letter-spacing: -0.2px;
+    letter-spacing: -0.2px;
+    font-size: var(--ck-connectbutton-font-size, 16px);
+    font-weight: var(--ck-connectbutton-font-weight, 500);
+    text-align: center;
+    -webkit-transition: 100ms ease;
+    transition: 100ms ease;
+    -webkit-transition-property: color, background, box-shadow, border-radius;
+    transition-property: color, background, box-shadow, border-radius;
+    color: var(--color);
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.hyKgaH.primary {
+    --color: var(--ck-connectbutton-color);
+    --background: var(--ck-connectbutton-background);
+    --box-shadow: var(--ck-connectbutton-box-shadow);
+    --border-radius: var(--ck-connectbutton-border-radius, 12px);
+    --hover-color: var(--ck-connectbutton-hover-color, var(--color));
+    --hover-background: var( --ck-connectbutton-hover-background, var(--background));
+    --hover-box-shadow: var( --ck-connectbutton-hover-box-shadow, var(--box-shadow));
+    --hover-border-radius: var( --ck-connectbutton-hover-border-radius, var(--border-radius));
+    --active-color: var(--ck-connectbutton-active-color, var(--hover-color));
+    --active-background: var( --ck-connectbutton-active-background, var(--hover-background));
+    --active-box-shadow: var( --ck-connectbutton-active-box-shadow, var(--hover-box-shadow));
+    --active-border-radius: var( --ck-connectbutton-active-border-radius, var(--hover-border-radius));
+}
+
+.hyKgaH.secondary {
+    --color: var(--ck-connectbutton-balance-color);
+    --background: var(--ck-connectbutton-balance-background);
+    --box-shadow: var(--ck-connectbutton-balance-box-shadow);
+    --border-radius: var( --ck-connectbutton-balance-border-radius, var(--ck-connectbutton-border-radius, 12px));
+    --hover-color: var(--ck-connectbutton-balance-hover-color, var(--color));
+    --hover-background: var( --ck-connectbutton-balance-hover-background, var(--background));
+    --hover-box-shadow: var( --ck-connectbutton-balance-hover-box-shadow, var(--box-shadow));
+    --hover-border-radius: var( --ck-connectbutton-balance-hover-border-radius, var(--border-radius));
+    --active-color: var( --ck-connectbutton-balance-active-color, var(--hover-color));
+    --active-background: var( --ck-connectbutton-balance-active-background, var(--hover-background));
+    --active-box-shadow: var( --ck-connectbutton-balance-active-box-shadow, var(--hover-box-shadow));
+    --active-border-radius: var( --ck-connectbutton-balance-active-border-radius, var(--hover-border-radius));
+}
+
+.bJdBYK {
+    all: initial;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border-radius: var(--ck-border-radius);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: none;
+    cursor: pointer;
+}
+
+.bJdBYK:disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.bJdBYK * {
+    cursor: pointer;
+}
+
+.bJdBYK:hover .sc-gkJlnC {
+    color: var(--hover-color, var(--color));
+    background: var(--hover-background, var(--background));
+    box-shadow: var(--hover-box-shadow, var(--box-shadow));
+    border-radius: var(--hover-border-radius, var(--border-radius));
+}
+
+.bJdBYK:active .sc-gkJlnC {
+    color: var(--active-color, var(--hover-color, var(--color)));
+    background: var( --active-background, var(--hover-background, var(--background)));
+    box-shadow: var( --active-box-shadow, var(--hover-box-shadow, var(--box-shadow)));
+    border-radius: var( --active-border-radius, var(--hover-border-radius, var(--border-radius)));
+}
+
+.bJdBYK:focus-visible {
+    outline: 2px solid var(--ck-family-brand);
+}
+
+@-webkit-keyframes kyfoBh {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes kyfoBh {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes gcvaBM {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+}
+
+@keyframes gcvaBM {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+}
+
+@-webkit-keyframes jtPyxw {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes jtPyxw {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.97);
+        -ms-transform: scale(0.97);
+        transform: scale(0.97);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes gYgSRh {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes gYgSRh {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes dUzAuZ {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 0%, 0);
+        -ms-transform: translate3d(0, 0%, 0);
+        transform: translate3d(0, 0%, 0);
+    }
+}
+
+@keyframes dUzAuZ {
+    from {
+        -webkit-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 0%, 0);
+        -ms-transform: translate3d(0, 0%, 0);
+        transform: translate3d(0, 0%, 0);
+    }
+}
+
+@-webkit-keyframes dwEkmm {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes dwEkmm {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes klHVvn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes klHVvn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes ebeUMj {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+}
+
+@keyframes ebeUMj {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+}
+
+@-webkit-keyframes gBjDwu {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes gBjDwu {
+    from {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes ljotTV {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes ljotTV {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.swal2-container {width: 100px;}
